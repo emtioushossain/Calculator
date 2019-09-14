@@ -5,7 +5,8 @@ import {
   Container,
   Row,
   Col,
-  Button
+  Button,
+  Input
 } from 'reactstrap';
 import ReactDOM from 'react-dom';
 import {
@@ -31,8 +32,8 @@ class Display extends Component {
 }
 
 const mapStateToProps = state => ({
-  calculation_result: state.final_result.calculated_value,
-  input_value: state.final_result.input_value
+  calculationResult: state.finalResult.calculatedValue,
+  inputValue: state.finalResult.inputValue
 })
 
 export default connect(mapStateToProps)(Display);
