@@ -54,8 +54,8 @@ class CalculatorButton extends Component {
       <Row className="justify-content-md-center">
       <Col md="12">
       <Row>
-      <Col className="blockProp" md="6" ><Button className="blockProp" value="CLR" onClick={this.clearChange}>clear</Button></Col>
-      <Col className="blockProp" md="3" ><Button className="blockProp" value="backspace" onClick={this.removeLastInput}>rv</Button></Col>
+      <Col className="blockProp" md="6" ><Button className="buttonProp" value="CLR" onClick={this.clearChange}>clear</Button></Col>
+      <Col className="blockProp" md="3" ><Button className="buttonProp" value="backspace" onClick={this.removeLastInput}>rv</Button></Col>
       <Col className="blockProp" md="3" ><Button className="colorButtonProp" value="/" onClick={this.inputChange}>÷</Button></Col>
       </Row>
       <Row>
