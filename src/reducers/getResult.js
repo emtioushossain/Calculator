@@ -6,9 +6,9 @@ import {
 } from '../actions/actionTypes';
 
 const initialState = {
-  calculated_value: '',
+  calculatedValue: '',
   history: [],
-  input_value: ''
+  inputValue: ''
 }
 
 export default function(state = initialState, action) {
@@ -16,26 +16,25 @@ export default function(state = initialState, action) {
     case CLICK_INPUT_BUTTON:
     return {
       ...state,
-      input_value: state.input_value.concat(action.payload)
+      inputValue: state.inputValue.concat(action.payload)
     }
     case FINAL_RESULT:
-    console.log(state);
     return {
       ...state,
-      calculated_value: action.payload,
-      history: state.history.concat(state.calculated_value)
+      calculatedValue: action.payload,
+      history: state.history.concat(state.calculatedValue)
     }
     case CLICK_CLEAR_BUTTON:
     return {
       ...state,
-      input_value: action.payload,
-      calculated_value: action.payload
+      inputValue: action.payload,
+      calculatedValue: action.payload
 
     }
     case CLICK_REMOVE_BUTTON:
     return {
       ...state,
-      input_value: state.input_value.slice(0, -1)
+      inputValue: state.inputValue.slice(0, -1)
 
     }
     default:

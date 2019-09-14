@@ -19,8 +19,8 @@ class Display extends Component {
 
       <Row>
       <Col md="12" className="displayBox">
-      <Input className="inputBox" value={this.props.input_value} />
-      <Input className="resultBox" value={this.props.calculation_result} />
+      <Input className="inputBox" value={this.props.inputValue} />
+      <Input className="resultBox" value={this.props.calculationResult} />
       </Col>
       </Row>
 

@@ -7,8 +7,6 @@ import {
 
 
 export const calculateInput = (buttonValue) => {
-  console.log("Final value")
-  console.log(buttonValue)
   try {
     buttonValue = eval(buttonValue)
   } catch (error) {

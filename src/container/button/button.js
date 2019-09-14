@@ -42,7 +42,7 @@ class CalculatorButton extends Component {
   }
 
   calculateChange(e) {
-    this.props.calculateInput(this.props.current_input)
+    this.props.calculateInput(this.props.currentInput)
   }
 
   clearChange(e) {
@@ -95,7 +95,7 @@ class CalculatorButton extends Component {
 }
 
 const mapStateToProps = state => ({
-  current_input: state.final_result.input_value
+  currentInput: state.finalResult.inputValue
 })
 
 const mapDispatchToProps = {
