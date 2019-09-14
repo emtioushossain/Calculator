@@ -10,8 +10,8 @@ class Display extends Component{
 
       <Row>
           <Col md="12" className="displayBox">
-              <input className="inputBox" value={this.props.input_value} />
-              <input className="resultBox" value={this.props.calculation_result} />
+              <Input className="inputBox" value={this.props.input_value} />
+              <Input className="resultBox" value={this.props.calculation_result} />
           </Col>
       </Row>
 

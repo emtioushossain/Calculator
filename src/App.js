@@ -10,13 +10,6 @@ import {
     Button, Col,
     Container,
     Input,
-    InputGroup,
-    InputGroupAddon,
-    Nav,
-    Navbar,
-    NavbarBrand,
-    NavItem,
-    NavLink,
     Row
 } from 'reactstrap';
 
