@@ -5,7 +5,6 @@ import {
   CLICK_CLEAR_BUTTON
 } from '../actions/actionTypes';
 
-
 export const calculateInput = (buttonValue) => {
   try {
     buttonValue = eval(buttonValue)
@@ -13,12 +12,10 @@ export const calculateInput = (buttonValue) => {
     buttonValue = ''
   }
 
-  console.log(buttonValue);
   return {
     type: FINAL_RESULT,
     payload: buttonValue
   }
-
 }
 
 export const receiveInput = (buttonValue) => {
@@ -26,7 +23,6 @@ export const receiveInput = (buttonValue) => {
     type: CLICK_INPUT_BUTTON,
     payload: buttonValue
   }
-
 }
 
 export const clearInput = (buttonValue) => {
@@ -34,7 +30,6 @@ export const clearInput = (buttonValue) => {
     type: CLICK_CLEAR_BUTTON,
     payload: buttonValue
   }
-
 }
 
 export const clearLastInput = (buttonValue) => {
@@ -42,5 +37,4 @@ export const clearLastInput = (buttonValue) => {
     type: CLICK_REMOVE_BUTTON,
     payload: buttonValue
   }
-
 }

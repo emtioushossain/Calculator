@@ -6,8 +6,6 @@ import logo from './logo.svg';
 import './App.css';
 import Display from './container/display/display.js'
 import CalculatorButton from './container/button/button.js'
-
-
 import {
   Button,
   Col,
@@ -15,6 +13,7 @@ import {
   Input,
   Row
 } from 'reactstrap';
+
 class App extends Component {
   render() {
     return (
@@ -28,10 +27,8 @@ class App extends Component {
       <Col md="4"></Col>
       </Row>
       </Container>
-
     )
   }
-
 }
 
 export default App ;

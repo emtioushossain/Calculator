@@ -30,7 +30,6 @@ class Display extends Component {
 
 }
 
-
 const mapStateToProps = state => ({
   calculation_result: state.final_result.calculated_value,
   input_value: state.final_result.input_value

@@ -19,9 +19,7 @@ import {
 } from 'react-redux';
 import './button.css';
 
-
 class CalculatorButton extends Component {
-
   constructor() {
     super();
     this.state = {
@@ -32,8 +30,6 @@ class CalculatorButton extends Component {
     this.calculateChange = this.calculateChange.bind(this);
     this.clearChange = this.clearChange.bind(this);
     this.removeLastInput = this.removeLastInput.bind(this);
-
-
 
   }
 
@@ -54,7 +50,6 @@ class CalculatorButton extends Component {
   }
 
   render(){
-
     return(
       <Row className="justify-content-md-center">
       <Col md="12">
@@ -68,8 +63,6 @@ class CalculatorButton extends Component {
       <Col className="blockProp" md="3" ><Button className="buttonProp" value="8" onClick={this.inputChange}>8</Button></Col>
       <Col className="blockProp" md="3" ><Button className="buttonProp" value="9" onClick={this.inputChange}>9</Button></Col>
       <Col className="blockProp" md="3" ><Button className="colorButtonProp" value="-" onClick={this.inputChange}>-</Button></Col>
-
-
       </Row>
       <Row>
       <Col className="blockProp" md="3" ><Button className="buttonProp" value="4" onClick={this.inputChange}>4</Button></Col>
@@ -83,15 +76,10 @@ class CalculatorButton extends Component {
       <Col className="blockProp" md="3" ><Button className="buttonProp" value="3" onClick={this.inputChange}>3</Button></Col>
       <Col className="blockProp" md="3" ><Button className="colorButtonProp" value="=" onClick={this.calculateChange}>=</Button></Col>
       </Row>
-
       </Col>
       </Row>
-
     )
-
   }
-
-
 }
 
 const mapStateToProps = state => ({
