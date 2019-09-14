@@ -27,16 +27,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-
-
-.borderCal{
-  background-color: white ;
-  padding:10px 25px 10px;
-  border:1px solid gray ;
-  margin-top:13%
+.borderCal {
+  background-color: white;
+  padding: 10px 25px 10px;
+  border: 1px solid gray;
+  margin-top: 13%
 }

@@ -1,32 +1,31 @@
-.displayBox{
+.displayBox {
   width: 100%;
   height: 90px;
-  border:1px solid #c52755;
+  border: 1px solid #c52755;
   background-color: #544C4A;
   padding: 5px
 }
 
-.resultBox{
+.resultBox {
   width: 100%;
-  text-align:right ;
+  text-align: right;
   height: 30px;
-  border:0px solid #c52755;
+  border: 0px solid #c52755;
   background-color: #544C4A;
-  color:white;
-  font-size:30px;
-  font-weight:600;
-  padding-right:10px
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding-right: 10px
 }
 
-
-.inputBox{
+.inputBox {
   width: 100%;
-  text-align:right ;
+  text-align: right;
   height: 50px;
-  border:0px solid #c52755;
+  border: 0px solid #c52755;
   background-color: #544C4A;
-  color:white;
-  font-size:20px;
-  font-weight:600;
-  padding-right:10px
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 10px
 }
